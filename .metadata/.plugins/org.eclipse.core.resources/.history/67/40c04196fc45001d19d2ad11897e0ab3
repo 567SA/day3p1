@@ -1,0 +1,12 @@
+package string1;
+
+public class stringdemo {
+	public static void main(string arg[]) {
+		int length=0;
+		String s="sampriti";
+		for(char c1: s.toCharArray())
+			length++;
+		System.out.println("lenth of the string is:" +length);
+}
+
+}

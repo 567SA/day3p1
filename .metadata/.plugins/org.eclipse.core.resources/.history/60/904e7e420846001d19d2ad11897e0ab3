@@ -1,0 +1,10 @@
+package com.aac;
+
+public class inheritancedemo {
+	public  void displayRBI()
+	{
+		System.out.println("method define inside RBI class")
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.accHashmap;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class hashmapdemo {
+	public static void main(String[]arg) {
+		Map<Integer,String>directory =new HashMap<>();
+		directory.put(789,"ttt"); 
+		directory .put(765, "iii");
+		directory .put(122,"ram");
+		System.out.println(directory);
+		}
+
+}

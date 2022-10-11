@@ -1,0 +1,14 @@
+package string1;
+
+//import string1.string;
+
+public class Accenture {
+	public static void main(string arg[]) {
+		int length=0;
+		String s="sampriti";
+		for(char c1: s.toCharArray())
+			length++;
+		System.out.println("lenth of the string is:" +length);
+}
+
+}

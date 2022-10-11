@@ -1,0 +1,32 @@
+package string1;
+
+//import string1.string;
+
+public class Accenture {
+	public static void main(String arg[]) {
+		Scanner sc= new Scannerr(System.in);
+		System.out.System("enter the string");
+		
+		int length=0;
+		String s="sampriti";
+		for(char c1: s.toCharArray())
+			length++;
+		System.out.println("lenth of the string is:" +length);
+		System.out .println("enter the index number:");
+		String str= sc.nextInt();
+//		System.out.println("charecter position" +pos + "  is :"+str.chatAt(pos));
+//		System.out.println("Enter the String index and end of string index:");
+//		 int start= sc.nextlnt();
+//		 intt end =sc.nextLnt();
+//		 sc.nextLine();
+//		 System.out.println("substring is :"+str.substring(start,end+1));
+		 
+		 
+		 String str1 ="hello";
+		 String str2="good";
+		 System.out .println(str1.equals(str2));
+		 
+		
+	}
+
+}

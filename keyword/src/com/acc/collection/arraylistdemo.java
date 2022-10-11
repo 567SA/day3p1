@@ -1,0 +1,25 @@
+package com.acc.collection;
+import java.util.*;
+public class arraylistdemo {
+	public static void main(String[]arg) {  
+		Arraylist<String> =new Arraylist String();
+		 ac.add("EID");
+		 ac.add("strem");
+		 ac.add("company");
+		 System.out.println("Arraylist current:",+ar);
+		 ar.add(2,"amit");
+		 System.out.println("New list ist:"+ar);
+		 ArryList<String>ar2=new Arraylist<String>();
+		 ar2.add("trainer");
+		 ar2.add("trainer2");
+		 System.out.println("2nd Arraylist is:"+ar2);
+		 ar.addAll(ar2);
+		 Sytem.out.println("update the list:"+ar);
+		 ae.remove(5);
+		 System.out.println("After remuval:"+ar);
+		 ar.remove(str->str.contains("amit"));
+		  System.out.println("New updated list:"+ar);
+		  }
+	}
+
+}
